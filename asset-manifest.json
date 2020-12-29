@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/music-app/static/css/main.ece4796f.chunk.css",
+    "main.js": "/music-app/static/js/main.bd44f5c3.chunk.js",
+    "main.js.map": "/music-app/static/js/main.bd44f5c3.chunk.js.map",
+    "runtime-main.js": "/music-app/static/js/runtime-main.726d910a.js",
+    "runtime-main.js.map": "/music-app/static/js/runtime-main.726d910a.js.map",
+    "static/js/2.7f134575.chunk.js": "/music-app/static/js/2.7f134575.chunk.js",
+    "static/js/2.7f134575.chunk.js.map": "/music-app/static/js/2.7f134575.chunk.js.map",
+    "index.html": "/music-app/index.html",
+    "precache-manifest.3b2e71d757b82ce3abbe2b8836ac16a6.js": "/music-app/precache-manifest.3b2e71d757b82ce3abbe2b8836ac16a6.js",
+    "service-worker.js": "/music-app/service-worker.js",
+    "static/css/main.ece4796f.chunk.css.map": "/music-app/static/css/main.ece4796f.chunk.css.map",
+    "static/js/2.7f134575.chunk.js.LICENSE.txt": "/music-app/static/js/2.7f134575.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.726d910a.js",
+    "static/js/2.7f134575.chunk.js",
+    "static/css/main.ece4796f.chunk.css",
+    "static/js/main.bd44f5c3.chunk.js"
+  ]
+}
