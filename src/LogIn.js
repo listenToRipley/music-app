@@ -15,8 +15,6 @@ class LogIn extends Component {
   };
 
   clickHandler = (e) => {
-   // e.preventDefault();
-    //console.log(this.state)
 
     if (this.state.username === '') {
       alert(`You haven't entered a username yet`) 
@@ -62,11 +60,3 @@ class LogIn extends Component {
 }
 
 export default LogIn;
-//must have:
-//All material-ui components for below 
-//Button for logon - linked to state default false 
-//clickHandler 
-//each should have className 
-//TextField - username & password 
-  //could short username & password
-//change render based on logon state 
