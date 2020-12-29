@@ -62,11 +62,3 @@ class LogIn extends Component {
 }
 
 export default LogIn;
-//must have:
-//All material-ui components for below 
-//Button for logon - linked to state default false 
-//clickHandler 
-//each should have className 
-//TextField - username & password 
-  //could short username & password
-//change render based on logon state 

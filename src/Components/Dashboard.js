@@ -10,7 +10,7 @@ const qualityNote =  "Music quality is degraded. Increase quality if your connec
 class Dashboard extends Component {
 
   constructor(props) {
-    //console.log('what props', props)
+ 
     super(props)
     this.state = {
       user: props.user,
@@ -45,7 +45,7 @@ class Dashboard extends Component {
     console.log('after,', this.state.messages)
   }
 
-  // This method should set current volume state to reflect the sliders current position and add or remove a notification based on the the status of the volume 
+
   slideHandler = (e, v) => {
     e.preventDefault();
     this.setState({
@@ -66,7 +66,6 @@ class Dashboard extends Component {
     })
   }
 
-  //should change the status of the quality of the music and add or remove a message to notifications based on the volume  
   qualityHandler = (e) => {
     e.preventDefault();
 
@@ -146,29 +145,3 @@ class Dashboard extends Component {
 }
 
 export default Dashboard
-
-//Material UI-Requirements 
-//Card - there will be three of theses 
-//CardContent
-//CardActions 
-//Switch
-//Slider 
-//Select 
-//Card 1 - Online Mode 
-  //content - must have Switch 
-    //should have state online - true or false based on Switch, default as true
-      //if false deplay text: Your application is offline. You won't be able to share or stream music to other devices.
-//Card 2 - Master Volumn
-  //content - must have Slider
-    //should have state currentVolum - set to 0? cannot exceed 100
-      //slider scale 0 - 100 incerment by 10 
-      //if volumn at or exceeds 80 isplay: Listening to music at a high volume could cause long-term hearing loss.
-//Card 3 - Sound Quality 
-  //content - must have Select
-    // should have state quality - number 1, 2, 3 
-      //1 = Low - if this display: Music quality is degraded. Increase quality if your connection allows it. 
-      //2 = Normal 
-      //3 = High
-
-  //maybe use componentDidUpdate() and access prevState 
-  //use map to use notification and display "System Notifications"
