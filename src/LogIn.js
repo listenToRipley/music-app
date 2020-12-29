@@ -15,8 +15,6 @@ class LogIn extends Component {
   };
 
   clickHandler = (e) => {
-   // e.preventDefault();
-    //console.log(this.state)
 
     if (this.state.username === '') {
       alert(`You haven't entered a username yet`) 
